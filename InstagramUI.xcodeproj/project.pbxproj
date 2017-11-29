@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4909FD311FCE87D100048D42 /* NewsfeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909FD301FCE87D100048D42 /* NewsfeedTableViewController.swift */; };
+		4909FD331FCE881300048D42 /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909FD321FCE881300048D42 /* PostHeaderCell.swift */; };
+		4909FD351FCE882F00048D42 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909FD341FCE882F00048D42 /* PostCell.swift */; };
 		527BDDDA1E6A812100A1075D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BDDD91E6A812100A1075D /* AppDelegate.swift */; };
 		527BDDDF1E6A812100A1075D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527BDDDD1E6A812100A1075D /* Main.storyboard */; };
 		527BDDE11E6A812100A1075D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527BDDE01E6A812100A1075D /* Assets.xcassets */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4909FD301FCE87D100048D42 /* NewsfeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsfeedTableViewController.swift; sourceTree = "<group>"; };
+		4909FD321FCE881300048D42 /* PostHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeaderCell.swift; sourceTree = "<group>"; };
+		4909FD341FCE882F00048D42 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		527BDDD61E6A812100A1075D /* InstagramUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		527BDDD91E6A812100A1075D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		527BDDDE1E6A812100A1075D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -80,6 +86,7 @@
 		527BDDF61E6A88DA00A1075D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4909FD301FCE87D100048D42 /* NewsfeedTableViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -87,6 +94,8 @@
 		527BDDF71E6A88E000A1075D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4909FD321FCE881300048D42 /* PostHeaderCell.swift */,
+				4909FD341FCE882F00048D42 /* PostCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -164,9 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4909FD311FCE87D100048D42 /* NewsfeedTableViewController.swift in Sources */,
 				527BDDF41E6A82BE00A1075D /* Post.swift in Sources */,
 				527BDDF21E6A82A500A1075D /* User.swift in Sources */,
 				527BDDDA1E6A812100A1075D /* AppDelegate.swift in Sources */,
+				4909FD331FCE881300048D42 /* PostHeaderCell.swift in Sources */,
+				4909FD351FCE882F00048D42 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
